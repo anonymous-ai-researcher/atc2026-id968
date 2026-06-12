@@ -28,14 +28,6 @@
 
 ---
 
-> [!NOTE]
-> **Anonymized artifact.** This repository accompanies a double-blind submission.
-> It contains **no author, affiliation, or citation information** by design.
-> Paths, identifiers, and acknowledgments have been removed or replaced with
-> neutral placeholders.
-
----
-
 ## 📖 Overview
 
 Reasoning models spend most of their compute **thinking**: a long internal chain
