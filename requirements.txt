@@ -1,0 +1,9 @@
+# Core control plane and calibration: standard library only, no heavy deps.
+# The figure scripts and tests need:
+matplotlib>=3.7
+numpy>=1.24
+
+# To run FATHOM inside the serving engine, install the pinned engine separately:
+#   pip install vllm==0.22.1
+# FATHOM attaches in the scheduling/sampling layer and adds no kernel code, so
+# it tracks the engine's own CUDA/torch requirements rather than pinning them here.

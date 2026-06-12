@@ -1,0 +1,8 @@
+{
+  "_comment": "Example per-model calibration produced by tools/run_calibration.py. tau is the readiness threshold; beta the false-cut rate it induces; gamma the post-knee tail bound (99th-percentile past-knee loss). end_of_thinking_id is the token id of the model's end-of-thinking marker and must be set per tokenizer. Values below are illustrative placeholders; regenerate for your model.",
+  "tau": 0.60,
+  "beta": 0.020,
+  "gamma": 0.009,
+  "end_of_thinking_id": 0,
+  "debounce_steps": 2
+}

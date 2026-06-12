@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fathom"
+version = "1.0.0"
+description = "Scheduling reasoning depth as a load-adaptive, quality-bounded serving resource"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+dependencies = []
+
+[project.optional-dependencies]
+figures = ["matplotlib>=3.7", "numpy>=1.24"]
+dev = ["pytest>=7.0"]
+
+[tool.setuptools.packages.find]
+include = ["fathom*"]
